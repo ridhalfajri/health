@@ -37,9 +37,11 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('pendaftaran', 'PendaftaranVaksin::index');
-$routes->get('login','Auth::login');
-$routes->get('recover_password','Auth::recover_password');
-$routes->get('riwayat','Riwayat::index');
+$routes->get('login', 'Auth::login');
+$routes->get('recover_password', 'Auth::recover_password');
+$routes->get('riwayat', 'Riwayat::index');
+$routes->get('riwayat/show', 'Riwayat::show');
+$routes->get('profil', 'Profil::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
