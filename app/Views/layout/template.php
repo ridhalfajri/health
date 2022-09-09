@@ -102,7 +102,7 @@
 
 
             <footer class="footer text-center text-sm-left">
-                &copy; 2022 INF<span class="d-none d-sm-inline-block float-right">Olivia Jaya<i class="mdi mdi-heart text-danger"></i> by Kelompok xx</span>
+                &copy; 2022 INF<span class="d-none d-sm-inline-block float-right">Olivia Jaya<i class="mdi mdi-heart text-danger"></i> by Kelompok 2</span>
             </footer>
             <!--end footer-->
         </div>
