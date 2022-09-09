@@ -60,7 +60,7 @@
                         <div class="col-lg-9 col-xl-8">
                             <div class="input-group">
                                 <div class="input-group-prepend"><span class="input-group-text"><i class="las la-calendar"></i></span></div>
-                                <input type="text" class="form-control" name="birthday" value="10/24/1984">
+                                <input type="text" class="form-control" name="tanggal_lahir" value="10/24/1984">
                             </div>
                         </div>
                     </div>

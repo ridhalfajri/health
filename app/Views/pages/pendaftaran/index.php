@@ -14,11 +14,16 @@
                             <li class="breadcrumb-item"><a href="pendaftaran-page.html">Pendaftaran Vaksin</a></li>
                             <li class="breadcrumb-item active">Daftar</li>
                         </ol>
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end page-title-box-->
-        </div><!--end col-->
-    </div><!--end row-->
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end page-title-box-->
+        </div>
+        <!--end col-->
+    </div>
+    <!--end row-->
     <!-- end page title end breadcrumb -->
     <div class="row">
         <div class="col-12">
@@ -26,12 +31,13 @@
                 <div class="card-header">
                     <h4 class="card-title">Daftar</h4>
                     <p class="text-muted mb-0">Pastikan data yang anda isi sudah benar.</p>
-                </div><!--end card-header-->
+                </div>
+                <!--end card-header-->
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6">
                             <label class="mb-3">Tanggal Vaksin <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" placeholder="2022-09-05" id="mdate">
+                            <input type="date" class="form-control" name="tanggal_lahir" value="10/24/1984">
                         </div>
                         <div class="col-md-6">
                             <label class="mb-3">Jenis Vaksin <span class="text-danger">*</span></label>
@@ -60,13 +66,13 @@
                         <div class="col-md-6">
                             <label class="my-3">Vaksin ke <span class="text-danger">*</span></label>
                             <br>
-                            <input type="radio"  name="gelombang_vaksin" id="vaksin_1">
+                            <input type="radio" name="gelombang_vaksin" id="vaksin_1">
                             <label for="vaksin_1" class="mr-3">Vaksin 1</label>
-                            <input type="radio"  name="gelombang_vaksin" id="vaksin_2">
+                            <input type="radio" name="gelombang_vaksin" id="vaksin_2">
                             <label for="vaksin_2" class="mr-3">Vaskin 2</label>
-                            <input type="radio"  name="gelombang_vaksin" id="booster_1">
+                            <input type="radio" name="gelombang_vaksin" id="booster_1">
                             <label for="booster_1" class="mr-3">Booster 1</label>
-                            <input type="radio"  name="gelombang_vaksin" id="booster_2">
+                            <input type="radio" name="gelombang_vaksin" id="booster_2">
                             <label for="booster_2" class="mr-3">Booster 2</label>
                         </div>
                     </div>
@@ -133,7 +139,8 @@
                                 <button type="button" class="btn btn-secondary waves-effect waves-light float-right"><i class="mdi mdi-keyboard-backspace mr-2"></i>Batal</button>
                             </div>
                         </div>
-                    </div><!--end card-body-->
+                    </div>
+                    <!--end card-body-->
                 </div><!-- end card-body -->
             </div> <!-- end card -->
         </div> <!-- end col -->

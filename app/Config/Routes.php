@@ -42,6 +42,9 @@ $routes->get('recover_password', 'Auth::recover_password');
 $routes->get('riwayat', 'Riwayat::index');
 $routes->get('riwayat/show', 'Riwayat::show');
 $routes->get('profil', 'Profil::index');
+$routes->get('jenis_vaksin', 'JenisVaksin::index');
+$routes->get('jenis_vaksin/edit', 'JenisVaksin::edit');
+$routes->get('jenis_vaksin/create', 'JenisVaksin::create');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
