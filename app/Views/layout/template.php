@@ -68,7 +68,7 @@
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                             <span class="ml-1 nav-user-name hidden-sm">Pandeka Setan</span>
-                            <img src="assets/images/users/user-5.jpg" alt="profile-user" class="rounded-circle" />
+                            <img src="<?= base_url('assets/images/users/user-5.jpg') ?>" alt="profile-user" class="rounded-circle" />
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
                             <a class="dropdown-item" href="<?= base_url('profil') ?>"><i data-feather="user" class="align-self-center icon-xs icon-dual mr-1"></i> Profile</a>
