@@ -1,0 +1,71 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 10/02/2020 05:59
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+}
+
+.flaticon-lab:before { content: "\f100"; }
+.flaticon-laboratory:before { content: "\f101"; }
+.flaticon-flask:before { content: "\f102"; }
+.flaticon-flask-1:before { content: "\f103"; }
+.flaticon-chemist-flask:before { content: "\f104"; }
+.flaticon-flask-2:before { content: "\f105"; }
+.flaticon-flask-3:before { content: "\f106"; }
+.flaticon-right-quotation-mark:before { content: "\f107"; }
+.flaticon-call:before { content: "\f108"; }
+.flaticon-circular-clock:before { content: "\f109"; }
+.flaticon-worldwide:before { content: "\f10a"; }
+.flaticon-planet-earth:before { content: "\f10b"; }
+.flaticon-allergy:before { content: "\f10c"; }
+.flaticon-molecular:before { content: "\f10d"; }
+.flaticon-heart-rate:before { content: "\f10e"; }
+.flaticon-test-tube:before { content: "\f10f"; }
+.flaticon-flasks:before { content: "\f110"; }
+.flaticon-biology:before { content: "\f111"; }
+.flaticon-microscope:before { content: "\f112"; }
+.flaticon-laboratory-1:before { content: "\f113"; }
+.flaticon-research:before { content: "\f114"; }
+.flaticon-flasks-1:before { content: "\f115"; }
+.flaticon-blood-sample:before { content: "\f116"; }
+.flaticon-biology-1:before { content: "\f117"; }
+.flaticon-quote-left:before { content: "\f118"; }
+.flaticon-flask-4:before { content: "\f119"; }
+.flaticon-microscope-1:before { content: "\f11a"; }
+.flaticon-dna:before { content: "\f11b"; }
+.flaticon-play:before { content: "\f11c"; }
+.flaticon-test-tube-1:before { content: "\f11d"; }
+.flaticon-report:before { content: "\f11e"; }
+.flaticon-user-experience:before { content: "\f11f"; }
+.flaticon-paint-palette:before { content: "\f120"; }
+.flaticon-reward:before { content: "\f121"; }
+.flaticon-medical:before { content: "\f122"; }
+.flaticon-caduceus:before { content: "\f123"; }
+.flaticon-calendar:before { content: "\f124"; }
+.flaticon-calendar-1:before { content: "\f125"; }
+.flaticon-marker:before { content: "\f126"; }
+.flaticon-marker-1:before { content: "\f127"; }
+.flaticon-report-1:before { content: "\f128"; }
