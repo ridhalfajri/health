@@ -50,8 +50,9 @@ $routes->get('jenis_vaksin/edit', 'JenisVaksin::edit');
 $routes->get('jenis_vaksin/create', 'JenisVaksin::create');
 
 $routes->get('dokter', 'Dokter::index');
-$routes->get('dokter/edit', 'Dokter::edit');
+$routes->get('dokter/edit/(:any)', 'Dokter::edit/$1');
 $routes->get('dokter/create', 'Dokter::create');
+$routes->post('dokter/store', 'Dokter::store');
 
 $routes->get('lokasi_vaksin', 'LokasiVaksin::index');
 $routes->get('lokasi_vaksin/edit', 'LokasiVaksin::edit');

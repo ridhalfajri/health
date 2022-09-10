@@ -139,6 +139,13 @@
     <script src="<?= base_url('assets/js/moment.js'); ?>"></script>
     <script src="<?= base_url('assets/modules/plugins/daterangepicker/daterangepicker.js'); ?>"></script>
 
+
+    <!-- Required datatable js -->
+    <script src="<?= base_url('assets/plugins/datatables/jquery.dataTables.min.js') ?>"></script>
+    <script src="<?= base_url('assets/plugins/datatables/dataTables.bootstrap4.min.js') ?>"></script>
+    <script src="<?= base_url('assets/plugins/datatables/dataTables.responsive.min.js') ?>"></script>
+    <script src="<?= base_url('assets/plugins/datatables/responsive.bootstrap4.min.js') ?>"></script>
+
     <!-- Plugins js -->
     <script src="<?= base_url('assets/modules/plugins/daterangepicker/daterangepicker.js'); ?>"></script>
     <script src="<?= base_url('assets/modules/plugins/select2/select2.min.js'); ?>"></script>
@@ -151,6 +158,16 @@
 
     <!-- App js -->
     <script src="<?= base_url('assets/js/app.js'); ?>"></script>
+
+    <script>
+        'use strict';
+        $(document).ready(function() {
+            $('#table-dokter').DataTable({
+                "searching": true
+            });
+        });
+    </script>
+
 
 </body>
 
