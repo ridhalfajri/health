@@ -131,12 +131,7 @@
                                             <li><a href="service-details.html">HomeVaccine</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index.html">Artikel</a>
-                                        <ul>
-                                            <li><a href="blog.html">Berita Terbaru Vaksin</a></li>
-                                            <li><a href="blog-details.html">Update Covid-19 Indonesia</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="contact.html">Artikel</a></li>
                                     <li><a href="contact.html">Hubungi Kami</a></li>
                                 </ul>
                             </div>

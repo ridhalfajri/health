@@ -62,6 +62,12 @@
                 <li>
                     <a href="<?= base_url('/dokter') ?>"><i data-feather="users" class="align-self-center menu-icon"></i><span>Dokter</span></a>
                 </li>
+                <li>
+                    <a href="<?= base_url('/lokasi_vaksin') ?>"><i data-feather="map" class="align-self-center menu-icon"></i><span>Lokasi Vaksin</span></a>
+                </li>
+                <li>
+                    <a href="<?= base_url('/berita/admin') ?>"><i data-feather="book-open" class="align-self-center menu-icon"></i><span>Berita</span></a>
+                </li>
 
                 <hr class="hr-dashed hr-menu">
             </ul>

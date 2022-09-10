@@ -1,0 +1,90 @@
+CRITICAL - 2022-09-09 13:06:30 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:07:04 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:07:22 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:08:05 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:08:05 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:08:06 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:08:27 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:10:50 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')
+CRITICAL - 2022-09-09 13:11:54 --> Invalid file: pages/berita_admin/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/berita_admin/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('pages/berita_admin/index', [], true)
+ 3 APPPATH/Controllers/Berita.php(9): view('pages/berita_admin/index')
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Berita->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Berita))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(43): require_once('FCPATH/index.php')

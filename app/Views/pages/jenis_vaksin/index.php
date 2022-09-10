@@ -12,7 +12,7 @@
                         <h4 class="page-title">Jenis Vaksin</h4>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?= base_url('jenis_vaksin') ?>">Jenis Vaksin</a></li>
-                            <li class="breadcrumb-item active">Vaksin</li>
+                            <li class="breadcrumb-item active">Jenis</li>
                         </ol>
                     </div>
                     <!--end col-->
@@ -36,7 +36,7 @@
                 </div>
                 <!--end card-header-->
                 <div class="card-body">
-                    <a href="<?= base_url('jenis_vaksin/create') ?>" class="btn btn-primary waves-effect waves-light float-right mb-3"><i class="mdi mdi-plus-circle-outline mr-2"></i>Tambah Vaksin</a>
+                    <a href="<?= base_url('jenis_vaksin/create') ?>" class="btn btn-primary waves-effect waves-light float-right mb-3"><i class="mdi mdi-plus-circle-outline mr-2"></i>Tambah Jenis Vaksin</a>
                     <div class="table-responsive">
                         <table class="table table-striped mb-0">
                             <thead>
