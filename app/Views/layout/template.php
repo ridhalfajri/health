@@ -68,6 +68,9 @@
                 <li>
                     <a href="<?= base_url('/berita/admin') ?>"><i data-feather="book-open" class="align-self-center menu-icon"></i><span>Berita</span></a>
                 </li>
+                <li>
+                    <a href="<?= base_url('/frontpage') ?>"><i data-feather="airplay" class="align-self-center menu-icon"></i><span>Frontpage</span></a>
+                </li>
 
                 <hr class="hr-dashed hr-menu">
             </ul>

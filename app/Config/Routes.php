@@ -39,18 +39,29 @@ $routes->get('/', 'Home::index');
 $routes->get('pendaftaran', 'PendaftaranVaksin::index');
 $routes->get('login', 'Auth::login');
 $routes->get('recover_password', 'Auth::recover_password');
+
 $routes->get('riwayat', 'Riwayat::index');
 $routes->get('riwayat/show', 'Riwayat::show');
+
 $routes->get('profil', 'Profil::index');
+
 $routes->get('jenis_vaksin', 'JenisVaksin::index');
 $routes->get('jenis_vaksin/edit', 'JenisVaksin::edit');
 $routes->get('jenis_vaksin/create', 'JenisVaksin::create');
+
+$routes->get('dokter', 'Dokter::index');
+$routes->get('dokter/edit', 'Dokter::edit');
+$routes->get('dokter/create', 'Dokter::create');
+
 $routes->get('lokasi_vaksin', 'LokasiVaksin::index');
 $routes->get('lokasi_vaksin/edit', 'LokasiVaksin::edit');
 $routes->get('lokasi_vaksin/create', 'LokasiVaksin::create');
+
 $routes->get('berita/admin', 'Berita::index');
 $routes->get('berita/admin/edit', 'Berita::edit');
 $routes->get('berita/admin/create', 'Berita::create');
+
+$routes->get('frontpage', 'Frontpage::edit');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
