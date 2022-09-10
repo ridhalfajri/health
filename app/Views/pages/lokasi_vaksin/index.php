@@ -49,33 +49,17 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; foreach($lokasi_vaksin as $data): ?>
                                 <tr>
-                                    <td>Jawa Barat</td>
-                                    <td>Rumah Sakit Umum Daerah Bogor</td>
-                                    <td>Jl. DR. Sumeru No.120, RT.03/RW.20, Menteng, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16112</td>
-                                    <td>082285497645</td>
+                                    <td><?= $data->nama_provinsi; ?></td>
+                                    <td><?= $data->nama_tempat; ?></td>
+                                    <td><?= $data->alamat_lengkap; ?></td>
+                                    <td><?= $data->no_telp; ?></td>
                                     <td class="text-right">
                                         <a href="<?= base_url('lokasi_vaksin/edit') ?>"><i class="fas fa-edit"></i></a>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>DKI Jakarta</td>
-                                    <td>Rumah Sakit Harapan Bunda</td>
-                                    <td>Jl. Raya Jakarta-Bogor KM.22 No.44, RT.8/RW.2, Rambutan, Kec. Ciracas, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13830</td>
-                                    <td>081378128931</td>
-                                    <td class="text-right">
-                                        <a href="#"><i class="fas fa-edit"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Jawa Barat</td>
-                                    <td>Rumah Sakit Karya Bhakti Pratiwi</td>
-                                    <td>Jl. Raya Dramaga KM.7, Dramaga, Kec. Dramaga, Kabupaten Bogor, Jawa Barat 16880</td>
-                                    <td>083180232832</td>
-                                    <td class="text-right">
-                                        <a href="#"><i class="fas fa-edit"></i></a>
-                                    </td>
-                                </tr>
+                            <?php $no++; endforeach; ?>
                             </tbody>
                         </table>
                         <!--end /table-->
