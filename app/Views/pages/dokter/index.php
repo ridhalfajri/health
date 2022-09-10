@@ -69,7 +69,7 @@
 
 
                         <tbody>
-                            <?php $no = 1 ?>
+                            <?php $no = 1; ?>
                             <?php foreach ($dokter as $dok) : ?>
                                 <tr>
                                     <td><?= $no; ?></td>
@@ -81,7 +81,7 @@
                                         <a href="<?= base_url('dokter/edit/' . base64_encode($dok->id)) ?>"><i class="fas fa-edit"></i></a>
                                     </td>
                                 </tr>
-                            <?php endforeach ?>
+                            <?php $no++; endforeach; ?>
 
                         </tbody>
                     </table>

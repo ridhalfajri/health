@@ -25,8 +25,45 @@ class LokasiVaksin extends BaseController
     {
         $provinsi = $this->m_provinsi->get_all_provinsi();
         $data = [
-            'provinsi' => $provinsi
+            'provinsi' => $provinsi,
+            'validation' => \Config\Services::validation()
         ];
         return view('pages/lokasi_vaksin/create',$data);
+    }
+    public function store()
+    {
+        if (!$this->validate([
+            'provinsi' => 'required',
+            'tempat' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Tempat harus diisi!'
+                ]
+            ],
+            'alamat' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Alamat tempat harus diisi!'
+                ]
+            ],
+            'no_telp' =>
+            [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'No Telepon harus diisi!'
+                ]
+            ],
+        ])) {
+            $validation = \Config\Services::validation();
+            return redirect()->to('/lokasi_vaksin/create')->withInput()->with('validation', $validation);
+        }
+        $this->m_lokasi_vaksin->save([
+            'id_provinsi' => $this->request->getVar('provinsi'),
+            'nama_tempat' => $this->request->getVar('tempat'),
+            'alamat_lengkap' => $this->request->getVar('alamat'),
+            'no_telp' => $this->request->getVar('no_telp')
+        ]);
+        session()->setFlashdata('sukses', 'Data Berhasil Disimpan');
+        return redirect()->to('/lokasi_vaksin');
     }
 }

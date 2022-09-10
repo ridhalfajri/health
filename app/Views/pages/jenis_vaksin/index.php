@@ -47,27 +47,15 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php $no = 1; foreach($jenis_vaksin as $data): ?>
                                 <tr>
-                                    <td>Vak-001</td>
-                                    <td>Sinovac</td>
+                                    <td><?= $data->kode_jenis_vaksin; ?></td>
+                                    <td><?= $data->nama; ?></td>
                                     <td class="text-right">
                                         <a href="<?= base_url('jenis_vaksin/edit') ?>"><i class="fas fa-edit"></i></a>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>Vak-002</td>
-                                    <td>Moderna</td>
-                                    <td class="text-right">
-                                        <a href="#"><i class="fas fa-edit"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Vak-003</td>
-                                    <td>Pfizer</td>
-                                    <td class="text-right">
-                                        <a href="#"><i class="fas fa-edit"></i></a>
-                                    </td>
-                                </tr>
+                            <?php $no++; endforeach; ?>
                             </tbody>
                         </table>
                         <!--end /table-->

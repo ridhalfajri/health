@@ -57,6 +57,7 @@ $routes->post('dokter/store', 'Dokter::store');
 $routes->get('lokasi_vaksin', 'LokasiVaksin::index');
 $routes->get('lokasi_vaksin/edit', 'LokasiVaksin::edit');
 $routes->get('lokasi_vaksin/create', 'LokasiVaksin::create');
+$routes->post('lokasi_vaksin/store', 'LokasiVaksin::store');
 
 $routes->get('berita/admin', 'Berita::index');
 $routes->get('berita/admin/edit', 'Berita::edit');

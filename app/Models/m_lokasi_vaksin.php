@@ -8,7 +8,7 @@ class m_lokasi_vaksin extends Model
 {
     protected $table="lokasi_vaksin";
     protected $primaryKey = 'id';
-    protected $allowedFields = ['id_provinsi','alamat_lengkap','no_telp','status'];
+    protected $allowedFields = ['id_provinsi','alamat_lengkap','no_telp','status','nama_tempat'];
 
     public function get_lokasi_vaksin(){
         $builder = $this->db->table('lokasi_vaksin');
